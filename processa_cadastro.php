@@ -2,9 +2,9 @@
 session_start();
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $servername = "localhost";
+    $servername = "localhost:3306";
     $username   = "root";
-    $password   = "";
+    $password   = "Senai@118";
     $dbname     = "craques_do_futuro_fc";
 
     $conn = new mysqli($servername, $username, $password, $dbname);
